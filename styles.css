@@ -53,15 +53,34 @@ table {
 */
 
 .header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
 }
 .tweet {
-    background-color: #F1F1F1;
-    text-align: right;
-    padding: 5px;
+  border: 1px solid #dfe2e5;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 5px;
 }
 body {
-    background-color: lightblue;
+  background-color: lightblue;
 }
+section {
+    height: 35%;
+    overflow: auto;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+    width: 63%;
+}
+
+header,
+section {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+
+
